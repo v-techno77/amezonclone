@@ -1,0 +1,71 @@
+.headdiv h1{
+    /* font-style: italic; */
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-size: 6vw;
+    background: linear-gradient(to right,rgb(179, 49, 49) ,rgb(38, 162, 179),rgb(206, 65, 88));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.headdiv{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 75px;
+
+}
+.headline{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+   
+}
+h4
+{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.inpudiv{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 240px;
+
+}
+footer
+{display: flex;
+    justify-content: center;
+    margin-top: 210px;
+    height:20px;
+}
+.inputbox
+{
+    width: 400px;
+    height:34px;
+    border: 2px solid wheat;
+    border-radius: 20px;
+}
+ *
+{
+    color: wheat; 
+     background-color: rgb(27, 24, 24); 
+    margin: 0;
+}
+
+.searchbut
+{
+    /* background-color: rgb(46, 46, 105); */
+    border: 2px solid wheat;
+    border-radius: 23px;
+    width:40px;
+ /* background-color: aquamarine; */
+}
+ header
+{
+    display: none;
+} 

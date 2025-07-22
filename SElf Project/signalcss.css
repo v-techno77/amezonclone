@@ -1,0 +1,81 @@
+.border
+{
+    height:500px;
+    width:200px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.red
+{
+    border: 2px solid black;
+    height:100px;
+    width:100px;
+    border-radius:50%;
+    background-color: red;
+    align-items: center;
+    margin-top:30px;
+    margin-left: 40px;
+    animation: forred 10s ease-in 2s infinite normal ;
+}
+.green
+{
+    border: 2px solid black;
+    height:100px;
+    width:100px;
+    border-radius:50%;
+    background-color:green;
+    align-items: center;
+    margin-top:60px;
+    margin-left: 40px;
+    animation: forgreen 10s ease-in 2s infinite normal
+}
+.yellow
+{
+    border: 2px solid black;
+    height:100px;
+    width:100px;
+    border-radius:50%;
+    background-color:yellow;
+    align-items: center;
+    margin-top:70px;
+    margin-left: 40px;
+    animation: foryellow 10s ease-in 0s infinite normal
+}
+@keyframes forred
+{
+from { background-color: red;} 
+to { background-color:darkgreen;}
+} 
+@keyframes forgreen
+{
+from { background-color:green} 
+to { background-color: yellow;}
+} 
+@keyframes foryellow
+{
+from { background-color:yellow;} 
+to { background-color:red;}
+} 
+.navbar
+{
+    height: 70px;
+    /* border: 2px solid black; */
+    background-color: #151a1a;
+display: flex;
+  flex-direction: row;
+  align-items: center
+}
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+
+}
+.logo
+{
+    height:70px;
+    width:100px;
+    display: flex;
+    margin-left:5px;
+}
